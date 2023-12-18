@@ -7,6 +7,7 @@
 
 body{
     background-color: rgb(31, 29, 29);
+    overflow: hidden;
     
 }
 #container-1{
