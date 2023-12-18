@@ -53,7 +53,7 @@ body{
 }
 .icons{
     display: flex;
-    width: 1300px;
+    width: 94.5%;
     height: 30px;
     justify-content: space-between;
     margin-left: 60px;
@@ -81,7 +81,8 @@ body{
 .flexproperty{
     display: flex;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 20px;
+    width: 1310px;
     justify-content: space-between;
 }
 .heart, .kdrama, .kda, .likedsongs{
@@ -93,8 +94,8 @@ body{
 }
 .dance{
     display: flex;
-    padding-left:30px ;
-   width: 350px;
+    padding-left:20px ;
+    width: 350px;
     align-items: center;
 }
 #dance{
@@ -107,8 +108,8 @@ body{
 #container-4{
      display: flex;
     justify-content: space-between;
-    width:1350px;
-    padding-left:30px ;
+    width:1320px;
+    padding-left:10px ;
 }
 
 .img1, .img2, .img3, .img4, .img5, .img6 {
@@ -130,9 +131,7 @@ body{
     margin-top: 15px;
     left: 0px;
     background-color: rgb(11, 11, 11); 
-    width: fit-content;
-    height: fit-content;
-    padding: 15px;
+
 }
 #footimage1{
     height: 80px;
@@ -141,6 +140,7 @@ body{
 }
 #music{
     height: 100px;
+    width:880px;
     background-color: rgb(12, 12, 12);
     margin-left: 70px;
 }
@@ -154,7 +154,7 @@ body{
 }
 #options{
     height:30px;
-    margin-left: 120px;
+    margin-left: 115px;
 }
 
 @media (width <= 320px){
@@ -190,7 +190,6 @@ body{
         
     }
     .icons{
-        /* border: 2px solid white; */
         width:190px;
         margin-top: 10px;
         margin-left: 55px;
@@ -199,7 +198,6 @@ body{
     .gm{
         font-size: large;
         margin-left: 0px;
-        /* border: 2px solid white; */
         padding:10px;
     }
     .kdrama, .kda, .likedsongs{
@@ -209,11 +207,11 @@ body{
         display: none;
     }
     .img1{
-        height: 213px;
-    }
+        height: 215px;
+        margin-left: 20px;
+   }
     .text{
         font-size: large;
-        /* border: 2px solid white; */
         margin-top: 9px;
         padding: 5px;
         margin-left:25px ;
@@ -224,7 +222,7 @@ body{
     }
     .heart{
         margin-top: 0px;
-        width:215px;
+        width:235px;
         font-size: small;
         height:75px
     }
@@ -236,7 +234,7 @@ body{
         width: 75px
     }
     #dance{
-        width:215px;
+        width:235px;
 
     }
     .dance{
@@ -247,7 +245,7 @@ body{
 
     .footer{
         margin-top: 0px;
-        
+        width:100vw;
         display: block;
         padding: 0px;
         
@@ -256,6 +254,7 @@ body{
         display: flex;
     }
     #footimage1{
+        padding: 2px;
         height: 40px;
         margin-left:0px ;
     
@@ -270,7 +269,7 @@ body{
     }
     #music{
         height: 50px;
-        width: 320px;
+        width: 100vw;
         margin-left: 0px;
         margin-top: 0px;
     
@@ -278,7 +277,7 @@ body{
     }
     #options{
         margin:0px;
-        width: 320px;
+        width: 100vw;
     }
 
     
